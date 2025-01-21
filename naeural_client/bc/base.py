@@ -266,7 +266,7 @@ class BaseBlockEngine:
     cls, 
     name, 
     log, 
-    config, 
+    config={}, 
     ensure_ascii_payloads=False, 
     verbosity=1, 
     user_config=False,   
